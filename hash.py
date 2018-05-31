@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python2.7
 #
 # Generates a content hash of the source_path, which is used to determine if
 # the Lambda code has changed, ignoring file modification and access times.

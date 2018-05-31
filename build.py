@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python2.7
 #
 # Builds a zip file from the source_dir or source_file.
 # Installs dependencies with pip automatically.

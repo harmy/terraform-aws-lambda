@@ -89,3 +89,18 @@ variable "attach_policy" {
   type        = "string"
   default     = false
 }
+
+variable "schedule_expression" {
+  default     = ""
+  description = "Optional rate() or cron() expression to schedule the Lambda function at regular intervals"
+}
+
+variable "log_retention_days" {
+  default     = 14
+  description = "CloudWatch logs for the Lambda function will be retained for this many days"
+}
+
+variable "enabled" {
+  default = true
+  description = "If true, schedule_expression will be applied"
+}
